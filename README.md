@@ -17,3 +17,8 @@
 - Arrow functions are used in callbacks such as requestAnimationFrame and forEach to preserve the lexical scope of this.  
 - The bind(this) method is used for event listeners (keydown and keyup) to maintain the correct context and allow event removal with removeEventListener.  
 - The keyword this refers to the current Game or Farmer instance depending on where it is used (for example, in update, render, or input handling).
+
+## Demo Video
+[Download and play the demo](gamedemo.mp4)
+<h2>Demo Video</h2>
+<video src="gamedemo.mp4" controls width="640"></video>
